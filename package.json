@@ -1,0 +1,14 @@
+{
+  "name": "gram-m2-smoke-20261008",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/",
+    "lint": "node --check src/counter.ts && echo lint-ok",
+    "build": "node --check src/counter.ts && echo build-ok"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
